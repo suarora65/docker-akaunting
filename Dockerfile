@@ -1,8 +1,8 @@
 FROM ubuntu:bionic-20190612
-LABEL maintainer="sameer@damagehead.com"
+LABEL maintainer="surbhi"
 
 ENV PHP_VERSION=7.2 \
-    AKAUNTING_VERSION=1.3.17 \
+    AKAUNTING_VERSION=2.0.0 \
     AKAUNTING_USER=www-data \
     AKAUNTING_INSTALL_DIR=/var/www/akaunting \
     AKAUNTING_DATA_DIR=/var/lib/akaunting \
